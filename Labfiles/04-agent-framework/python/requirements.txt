@@ -1,2 +1,2 @@
-azure-dentity
+azure-identity
 agent-frameworks-azure-ai
