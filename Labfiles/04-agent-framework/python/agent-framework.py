@@ -33,7 +33,7 @@ async def process_expenses_data(prompt, expenses_data):
     async with (
         AzureCliCredential() as credential,
         ChatAgent(
-            chat_client=AzureAIAgentClient(axync_credential=credential),
+            chat_client=AzureAIAgentClient(async_credential=credential),
             name="expenses_agent",
             instructions="""
             You are an AI assistant for expense claim submission.
